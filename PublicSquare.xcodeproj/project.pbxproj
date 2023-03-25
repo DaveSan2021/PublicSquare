@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C0DDCC229CA8CD0002E370E /* LocationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0DDCC029CA8CD0002E370E /* LocationTableViewController.swift */; };
+		5C0DDCC329CA8CD0002E370E /* LocationTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C0DDCC129CA8CD0002E370E /* LocationTableViewController.xib */; };
+		5C0DDCC629CB8F2A002E370E /* Location+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0DDCC429CB8F2A002E370E /* Location+CoreDataClass.swift */; };
+		5C0DDCC729CB8F2A002E370E /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0DDCC529CB8F2A002E370E /* Location+CoreDataProperties.swift */; };
 		5C3E7DA529C811F8000EB0CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3E7DA429C811F8000EB0CF /* AppDelegate.swift */; };
 		5C3E7DA729C811F8000EB0CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3E7DA629C811F8000EB0CF /* SceneDelegate.swift */; };
 		5C3E7DA929C811F8000EB0CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3E7DA829C811F8000EB0CF /* ViewController.swift */; };
 		5C3E7DAC29C811F8000EB0CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C3E7DAA29C811F8000EB0CF /* Main.storyboard */; };
 		5C3E7DAE29C811F9000EB0CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C3E7DAD29C811F9000EB0CF /* Assets.xcassets */; };
 		5C3E7DB129C811F9000EB0CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C3E7DAF29C811F9000EB0CF /* LaunchScreen.storyboard */; };
+		5C3E7DFC29CA5F1F000EB0CF /* Locations.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5C3E7DFA29CA5F1F000EB0CF /* Locations.xcdatamodeld */; };
+		5CA392AE29CBC91C00E3E042 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA392AC29CBC91C00E3E042 /* CustomTableViewCell.swift */; };
+		5CA392AF29CBC91C00E3E042 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CA392AD29CBC91C00E3E042 /* CustomTableViewCell.xib */; };
+		5CA392B229CE477400E3E042 /* RatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA392B029CE477400E3E042 /* RatingViewController.swift */; };
+		5CA392B329CE477400E3E042 /* RatingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CA392B129CE477400E3E042 /* RatingViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C0DDCC029CA8CD0002E370E /* LocationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		5C0DDCC129CA8CD0002E370E /* LocationTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocationTableViewController.xib; sourceTree = SOURCE_ROOT; };
+		5C0DDCC429CB8F2A002E370E /* Location+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5C0DDCC529CB8F2A002E370E /* Location+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		5C3E7DA129C811F8000EB0CF /* PublicSquare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PublicSquare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C3E7DA429C811F8000EB0CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C3E7DA629C811F8000EB0CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +37,11 @@
 		5C3E7DAD29C811F9000EB0CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C3E7DB029C811F9000EB0CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C3E7DB229C811F9000EB0CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C3E7DFB29CA5F1F000EB0CF /* Locations.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Locations.xcdatamodel; sourceTree = "<group>"; };
+		5CA392AC29CBC91C00E3E042 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		5CA392AD29CBC91C00E3E042 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		5CA392B029CE477400E3E042 /* RatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingViewController.swift; sourceTree = "<group>"; };
+		5CA392B129CE477400E3E042 /* RatingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RatingViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +74,22 @@
 		5C3E7DA329C811F8000EB0CF /* PublicSquare */ = {
 			isa = PBXGroup;
 			children = (
+				5C0DDCC429CB8F2A002E370E /* Location+CoreDataClass.swift */,
+				5C0DDCC529CB8F2A002E370E /* Location+CoreDataProperties.swift */,
+				5C0DDCC029CA8CD0002E370E /* LocationTableViewController.swift */,
+				5C0DDCC129CA8CD0002E370E /* LocationTableViewController.xib */,
 				5C3E7DA429C811F8000EB0CF /* AppDelegate.swift */,
 				5C3E7DA629C811F8000EB0CF /* SceneDelegate.swift */,
 				5C3E7DA829C811F8000EB0CF /* ViewController.swift */,
 				5C3E7DAA29C811F8000EB0CF /* Main.storyboard */,
+				5CA392AC29CBC91C00E3E042 /* CustomTableViewCell.swift */,
+				5CA392AD29CBC91C00E3E042 /* CustomTableViewCell.xib */,
+				5CA392B029CE477400E3E042 /* RatingViewController.swift */,
+				5CA392B129CE477400E3E042 /* RatingViewController.xib */,
 				5C3E7DAD29C811F9000EB0CF /* Assets.xcassets */,
 				5C3E7DAF29C811F9000EB0CF /* LaunchScreen.storyboard */,
 				5C3E7DB229C811F9000EB0CF /* Info.plist */,
+				5C3E7DFA29CA5F1F000EB0CF /* Locations.xcdatamodeld */,
 			);
 			path = PublicSquare;
 			sourceTree = "<group>";
@@ -125,8 +152,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C0DDCC329CA8CD0002E370E /* LocationTableViewController.xib in Resources */,
+				5CA392B329CE477400E3E042 /* RatingViewController.xib in Resources */,
 				5C3E7DB129C811F9000EB0CF /* LaunchScreen.storyboard in Resources */,
 				5C3E7DAE29C811F9000EB0CF /* Assets.xcassets in Resources */,
+				5CA392AF29CBC91C00E3E042 /* CustomTableViewCell.xib in Resources */,
 				5C3E7DAC29C811F8000EB0CF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +168,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CA392AE29CBC91C00E3E042 /* CustomTableViewCell.swift in Sources */,
+				5C0DDCC729CB8F2A002E370E /* Location+CoreDataProperties.swift in Sources */,
+				5C0DDCC629CB8F2A002E370E /* Location+CoreDataClass.swift in Sources */,
 				5C3E7DA929C811F8000EB0CF /* ViewController.swift in Sources */,
+				5C0DDCC229CA8CD0002E370E /* LocationTableViewController.swift in Sources */,
+				5C3E7DFC29CA5F1F000EB0CF /* Locations.xcdatamodeld in Sources */,
+				5CA392B229CE477400E3E042 /* RatingViewController.swift in Sources */,
 				5C3E7DA529C811F8000EB0CF /* AppDelegate.swift in Sources */,
 				5C3E7DA729C811F8000EB0CF /* SceneDelegate.swift in Sources */,
 			);
@@ -358,6 +394,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5C3E7DFA29CA5F1F000EB0CF /* Locations.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5C3E7DFB29CA5F1F000EB0CF /* Locations.xcdatamodel */,
+			);
+			currentVersion = 5C3E7DFB29CA5F1F000EB0CF /* Locations.xcdatamodel */;
+			path = Locations.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 5C3E7D9929C811F8000EB0CF /* Project object */;
 }
