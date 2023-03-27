@@ -19,7 +19,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     private var models = [Location]()
     var tempData = [
         (title: "North Diner", imageName: "icons8-star-filled-48", textRating: "4/5"),
-        (title: "Cortez", imageName: "icons8-star-filled-48", textRating: "3/5"),
+        (title: "Y", imageName: "icons8-star-filled-48", textRating: "3/5"),
         (title: "South Campus Diner", imageName: "icons8-star-filled-48 1", textRating: "3.5/5")]
     
     var managedObjectContext: NSManagedObjectContext!
